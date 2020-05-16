@@ -4,7 +4,7 @@ import { View, Image, Text, TouchableOpacity, FlatList } from 'react-native';
 
 import api from '../../services/api';
 
-import logoImg from '../../assets/images/logo.png';
+import logoImg from '../../assets/images/detail.png';
 
 import styles from './styles';
 
