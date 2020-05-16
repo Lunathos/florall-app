@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/images/logo.png';
 
 import styles from './styles';
 

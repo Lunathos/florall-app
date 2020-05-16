@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/images/logo.png';
 
 import styles from './styles';
 
@@ -35,7 +35,7 @@ export default function Principal(){
                     onPress={navigateToQrcode}>
                         <Text style={styles.ButtonText}>ESCANEAR QR CODE</Text>
                         <Image
-                            source={require('../../assets/qrcode.png')}
+                            source={require('../../assets/images/qrcode.png')}
                             style={styles.QrCodeIconStyle}
                         />
                 </TouchableOpacity>
