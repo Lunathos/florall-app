@@ -16,8 +16,8 @@ export default StyleSheet.create({
     },
 
     body: {
-        marginTop: 10,
-
+        marginTop: '5%',
+        marginBottom: '5%',
         borderTopStartRadius: 5,
         borderTopEndRadius: 5,
         borderBottomStartRadius: 5,
@@ -38,7 +38,6 @@ export default StyleSheet.create({
     },
     
     bodyDescription: {
-        
         marginStart: 15,
         marginEnd: 15,
 
@@ -49,8 +48,13 @@ export default StyleSheet.create({
         color: '#FFF',
     },
 
+
+    buttonPos:{
+        //marginTop: '20%',
+    },
+
     backButton: {
-        padding: 10,
+        padding: 20,
         marginTop: 10,
 
         borderTopStartRadius: 2,

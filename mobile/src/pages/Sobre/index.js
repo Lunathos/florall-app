@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
 
-import logoImg from '../../assets/images/detail.png';
+import logoImg from '../../assets/images/detail2x.png';
 
 import styles from './styles';
 
@@ -34,7 +34,7 @@ export default function Sobre(){
                  a tecnologia QR Code.</Text>
             </View>
 
-            <View>
+            <View style={styles.buttonPos}>
                 <TouchableOpacity
                     style={styles.backButton}
                     onPress={navigateBack}>

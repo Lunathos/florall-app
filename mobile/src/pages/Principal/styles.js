@@ -27,11 +27,7 @@ export default StyleSheet.create({
     scanButton: {
         paddingVertical: 10,
 
-        borderTopStartRadius: 2,
-        borderTopEndRadius: 2,
-
-        borderBottomStartRadius: 2,
-        borderBottomEndRadius: 2,
+        borderRadius: 10,
 
         backgroundColor: '#9c8a1e',
         flexDirection: 'row',
@@ -55,13 +51,7 @@ export default StyleSheet.create({
         marginTop: 20,
         paddingVertical: 20,
 
-        
-        borderTopStartRadius: 2,
-        borderTopEndRadius: 2,
-
-        borderBottomStartRadius: 2,
-        borderBottomEndRadius: 2,
-
+        borderRadius: 10,
 
         backgroundColor: '#9c8a1e',
 
@@ -71,12 +61,9 @@ export default StyleSheet.create({
 
     //Estilização dos Textos dentro dos Botões
     ButtonText: {
-        //fontFamily: 'RobotoFont',
         color: '#FFF',
         fontSize: 25,
         fontWeight: 'bold',
     },
-
-
 
 });

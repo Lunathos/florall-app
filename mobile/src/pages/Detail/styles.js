@@ -26,7 +26,6 @@ export default StyleSheet.create({
 
     infoTree: {
         margin: -10,
-        //marginBottom: 100,
         marginVertical: 20,
     },
 
@@ -45,7 +44,7 @@ export default StyleSheet.create({
     treeDec: {
         
         //marginVertical: '2%',
-        marginHorizontal: '2%',
+        marginHorizontal: '3%',
         borderRadius: 5,
         backgroundColor: '#617d1a',
     },
