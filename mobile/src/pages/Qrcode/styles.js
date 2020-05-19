@@ -29,8 +29,12 @@ export default StyleSheet.create({
 
 
     //CENTRO
+    layerMask: {
+        flex: 1,
+    },
+
     layerCenter: {
-        flex: 2,
+        flex: 4,
         flexDirection: 'column',
 
         borderStartWidth: 5,

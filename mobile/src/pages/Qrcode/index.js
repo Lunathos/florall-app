@@ -63,13 +63,17 @@ export default function Qrcode (){
                     style={StyleSheet.absoluteFillObject}
                 >
                     <View style={styles.layerTop}>
-                        <Text style={styles.text}>Scan you QR Code</Text>
-                    </View>
-                    
-                    <View style={styles.layerCenter}>
-                        <View style={styles.focused} />
+                        <Text style={styles.text}>LER QR CODE</Text>
                     </View>
 
+                    <View style={styles.layerMask}/>
+
+                    <View style={styles.layerCenter}>  
+                        <View style={styles.focused} />  
+                    </View>
+
+                    <View style={styles.layerMask}/>
+                    
                     <View style={styles.layerBottom}>
                         <Text onPress={navigateBack} style={styles.cancel}> Cancelar </Text>
                     </View>
