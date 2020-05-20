@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { View, Image, Text, TouchableOpacity, FlatList } from 'react-native';
+import { View, Image, Text, TouchableOpacity, FlatList} from 'react-native';
 
 import api from '../../services/api';
 
@@ -58,7 +58,7 @@ export default function Detail(){
 
                     <Text style={styles.treeProperty}>Nome Científico</Text>
                         <View style={styles.treeDec}>
-                            <Text style={styles.treeValue}>{tree.sciName}</Text></View>
+                            <Text style={[styles.treeValue , {fontStyle: 'italic'}]}>{tree.sciName}</Text></View>
 
                     <Text style={styles.treeProperty}>Descrição</Text>
                         <View style={styles.treeDec}>
