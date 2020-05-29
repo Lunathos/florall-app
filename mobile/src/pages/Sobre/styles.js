@@ -6,74 +6,89 @@ export default StyleSheet.create({
         flex: 1,
         paddingHorizontal: 5,
         paddingTop: Constants.statusBarHeight + 20,
-        backgroundColor: '#a9d437',
+        backgroundColor: '#a9d437'
     },
 
     header: {
+
         flexDirection: 'row',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         alignItems: 'center',
+
+        borderRadius: 5,
+        backgroundColor: '#617d1a'
+    },
+
+    imageLogo: {
+
+        width: 150,
+        height: 150,
+        resizeMode: 'contain'
+    },
+
+    image: {
+
+        width: 170,
+        height: 150,
+        resizeMode: 'contain',
+        backgroundColor: '#FFF'
     },
 
     body: {
+
         marginTop: '5%',
         marginBottom: '5%',
-        borderTopStartRadius: 5,
-        borderTopEndRadius: 5,
-        borderBottomStartRadius: 5,
-        borderBottomEndRadius: 5,
+        paddingBottom: 10,
+
+        borderRadius: 5,
 
         flexDirection: 'column',
         textAlign: 'justify',
-        backgroundColor: '#617d1a',
+        backgroundColor: '#617d1a'
        
     },
 
 
     bodyTitle: {
 
-        fontSize: 50,
+        fontSize: 35,
+        textDecorationLine: 'underline',
+
         alignSelf: 'center',
-        color: '#FFF',
+        color: '#FFF'
     },
     
     bodyDescription: {
-        marginStart: 15,
-        marginEnd: 15,
-
-        paddingBottom: 35,
-
+        marginTop: 10,
         lineHeight: 35,
-        fontSize: 25,
-        color: '#FFF',
+        alignSelf: 'center',
+
+        fontSize: 15,
+        color: '#A9D437'
     },
 
+    bodyEmail: {
 
-    buttonPos:{
-        //marginTop: '20%',
+        textDecorationLine: 'underline',
+        paddingBottom: 5,
+        alignSelf: 'center',
+        fontSize: 15,
+        color: '#FFF'     
     },
 
     backButton: {
-        padding: 20,
-        marginTop: 10,
 
-        borderTopStartRadius: 2,
-        borderTopEndRadius: 2,
-
-        borderBottomStartRadius: 2,
-        borderBottomEndRadius: 2,
-
-
+        padding: 10,
+        borderRadius: 5,
         backgroundColor: '#7f5b1c',
 
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'center'
     },
 
     backButtonText: {
-        
         color: '#f6dc95',
-        fontSize: 29,
+        fontSize: 29
     },
 
 });
